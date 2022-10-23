@@ -1,0 +1,55 @@
+    .test {
+        display: flex;
+        align-items: center;
+    }
+
+    .button {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .button1 {
+        background-color: white;
+        color: black;
+        border: 2px solid #4CAF50;
+    }
+
+    .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .menu {
+        width: 30%;
+        float: left;
+    }
+
+    .main {
+        width: 40%;
+        float: right;
+    }
+
+    .last {
+        width: 20%;
+        float: right;
+    }
+
+    .p1 {
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
