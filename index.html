@@ -68,11 +68,13 @@
     }
 
     .container {
-      display: inline-flex;
+      display: flex;
+      flex-direction: row;
     }
 
-    .ul1 {
-      justify-items: flex-start;
+    .mix {
+      display: flex;
+      align-content: space-between;
     }
   </style>
 </head>
@@ -86,7 +88,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="container">
-        <ul class="ul1">
+        <ul class="mix">
           <li><a class="navbar-brand text-white text-center" href="./index.html">O NAMA</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link text-center dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button"
@@ -108,7 +110,7 @@
         </ul>
         <ul>
           <li>
-            <form class="form-d-flex " role="search">
+            <form class="form-d-flex mix " role="search">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success text-center my-2 my-sm-0" type="submit">Search</button>
             </form>
@@ -121,7 +123,6 @@
   <!--some text or marketing place here-->
   <div class="row">
     <div class="menu">
-
       <!--style="width: 18rem;"-->
       <div class="card-body text-center">
         <p class="card-title"><b>Radno vreme:</b></p>
@@ -162,12 +163,12 @@
                   alt="Plocice"></a>
             </div>
             <div class="carousel-item">
-              <a href="./vodovod.html"></a><img src="Images/zidneplocice2.jpg" class="d-block" style="display: block;"
-                alt="Vodovod"></a>
+              <a href="./vodovod.html"><img src="Images/zidneplocice2.jpg" class="d-block" style="display: block;"
+                  alt="Vodovod"></a>
             </div>
-            <!-- <div class="carousel-item active">
-              <img src="Images/zidneplocice2.jpg" class="d-block" style="display: block;" alt="Gradjevina">
-            </div>-->
+            <div class="carousel-item">
+              <img src="Images/plocicerad.jpg" class="d-block" style="display: block;" alt="Gradjevina">
+            </div>
           </div>
           <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev"
             text="color">
