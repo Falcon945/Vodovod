@@ -39,6 +39,7 @@
     width: 600px;
     flex: center;
     justify-items: center;
+    text-align: center;
 }
 
 .last {
