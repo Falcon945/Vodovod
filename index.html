@@ -3,90 +3,11 @@
 
 <head>
   <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="Miki.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-    crossorigin="anonymous"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <title>Vodovod</title>
-  <style>
-    @media(max-width:992px) {
-      .item {
-        flex-basis: 80%;
-      }
-    }
-
-    .test2 {
-      flex-basis: 32%;
-    }
-
-    .test {
-      display: flex;
-      align-items: center;
-    }
-
-    .button {
-      background-color: #4CAF50;
-      /* Green */
-      border: none;
-      color: white;
-      padding: 16px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      transition-duration: 0.4s;
-      cursor: pointer;
-    }
-
-    .button1 {
-      background-color: white;
-      color: black;
-      border: 2px solid #4CAF50;
-    }
-
-    .button1:hover {
-      background-color: #4CAF50;
-      color: white;
-    }
-
-    .menu {
-      width: 30%;
-      float: left;
-    }
-
-    .main {
-      width: 40%;
-      float: right;
-    }
-
-    .last {
-      width: 20%;
-      float: right;
-    }
-
-    .p1 {
-      font-family: "Times New Roman", Times, serif;
-    }
-
-    .container {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .mix {
-      display: flex;
-      align-content: space-between;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="Miki.css" />
 </head>
 
 <body style="background:whitesmoke">
@@ -131,28 +52,27 @@
   </nav>
   <!--end of navbar-->
   <!--some text or marketing place here-->
-  <div class="row">
-    <div class="menu">
-      <!--style="width: 18rem;"-->
-      <div class="Grid text-center">
-        <p class="card-title"><b>Radno vreme:</b></p>
-        <p class="card-text">pon-petak:<b>07-15h</b></p>
-        <p class="card-text">subota i nedelja:<b> NE RADIMO</b></p>
-        <p class="card-text"><b>kontakt:</b></p>
-        <p><b>0644828749</b></p>
-        <p><b>Goran</b></p>
-        <!--<a href="#" class="btn btn-primary">BUTTON</a>-->
-      </div>
+  <div class="row testiranje">
+    <!--style="width: 18rem;"-->
+    <div class="Grid text-center menu">
+      <p class="card-title"><b>Radno vreme:</b></p>
+      <p class="card-text">pon-petak:<b>07-15h</b></p>
+      <p class="card-text">subota i nedelja:<b> NE RADIMO</b></p>
+      <p class="card-text"><b>kontakt:</b></p>
+      <p><b>0644828749</b></p>
+      <p><b>Goran</b></p>
+      <!--<a href="#" class="btn btn-primary">BUTTON</a>-->
     </div>
-    <div class="main Grid">
+    <!--div za radno vreme-->
+    <div class="Grid main">
       <!--<h2 style="color:blue"><b>Zukic-997:</b></h2>-->
-      <h3>Nasa firma se bavi: <b> postavljanjem vodovodnih I kanalizacionih cevi, </b>
+      <h3>Nasa firma se bavi: <strong> postavljanjem vodovodnih I kanalizacionih cevi, </strong>
         svim manjim gradjevinskim radovima (zidanje manjih objekata, betoniranje cuprija,izrada letnjikovca itd),
         postavljanjem keramickih plocica laminata I behatona.
-        <b>Radove obavljamo na teritoriji opstine sremska mitrovic i okrugu od 30 km</b>
+        <strong>Radove obavljamo na teritoriji opstine sremske mitrovice i okrugu od 30 km</strong>
       </h3>
     </div>
-    <!--carousel-->
+    <!--carousel kao 3 element-->
     <div class="last Grid" style="background-color: whitesmoke;">
 
       <div class="container-fluid" style="display: block; background-color: whitesmoke;">
@@ -163,7 +83,7 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
           </ol>
-          <div class="carousel-inner">
+          <div class="carousel-inner" width="100%">
             <div class="carousel-item active">
               <a href="./Gradjevina.html"><img src="Images/gradjevina.png" class="d-block" style="display: block;"
                   alt="Gradjevina"></a>
@@ -191,80 +111,87 @@
           </button>
         </div>
       </div>
-      <!--end of caroussel-->
-      <div class="last Grid"> </div>
+    </div>
+    <!--end of caroussel-->
+    <div>
+      <div class="last">
+
+      </div>
       <div class="text-center">
-        <!--<a href="./galery.html"><button type="button" class="button button1">galerija</button></a>-->
-      </div>
-    </div>
-    <div class="menu Grid">
+        <hr />
+        <!--<span class="badge rounded-pill text-bg-dark">VISE</span>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">VISE</span>
+        </button></span>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <h3><strong>O preduzecu</strong></h3>
+          <h3>Mi smo eksperti za postavljanje vodovodnih i kanalizacionih sistema u sremskoj mitrovici!</h3>
 
-    </div>
-    <div class="main text-center Grid">
-      <hr />
-      <!--<span class="badge rounded-pill text-bg-dark">VISE</span>-->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">VISE</span>
-      </button></span>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <h3><b>O preduzecu</b></h3>
-        <h3>Mi smo eksperti za postavljanje vodovodnih i kanalizacionih sistema u sremskoj mitrovici!</h3>
+          <h3>firma je osnovana 2022. godine i primarna delatnost nem je postavljanjem vodovodnih i kanalizacionih
+            instalacija
+            osim toga obavljamo manje gradjevinske radove
+            (zidanje manjih objeka,betoniranje ploca, betoniranje cuprija,itd...), postavljanje behatona ,keramickih
+            plocica,
+            laminata i drugo.</h3>
 
-        <h3>firma je osnovana 2022. godine i primarna delatnost nem je postavljanjem vodovodnih i kanalizacionih
-          instalacija
-          osim toga obavljamo manje gradjevinske radove
-          (zidanje manjih objeka,betoniranje ploca, betoniranje cuprija,itd...), postavljanje behatona ,keramickih
-          plocica,
-          laminata i drugo.</h3>
-
-        <h3><b>poslujemo na teritoriji citave sremske mitrovice.</b></h3>
-        <h3><b>kontaktirajte nas za vise informacija!</b></h3>
-        <h3><b>kontakt: 0644828749 Goran</b></h3>
+          <h3><strong>poslujemo na teritoriji citave sremske mitrovice.</strong></h3>
+          <h3><strong>kontaktirajte nas za vise informacija!</strong></h3>
+          <h3><strong>kontakt: 0644828749 Goran</strong></h3>
 
 
 
-        <h3>ako vam je potrebna firma koja uspesno vrsi ,postavljanje vodovodnih i kanalizacionih instalacija,
-          obavljanje manjih gradjevinskih radova
-          (zidanje manjih objeka,betoniranje ploca, betoniranje cuprija,itd...),
-          postavljanje behatona ,keramickih plocica, laminata i drugo.
-          ZUKIC-997 je prava adresa za vas!</h3>
-        <h3>Uspesno se bavimo ovim poslom dugi niz godina. iako je nasa firma mlada, mi smo tim iskusnih i strucnih
-          ljudi
-          koji ce obaviti posao za vas po najvisim mogucim standardima i pristupacnim cenama.
-          ako ste trazili jedinstven spoj odlicnog rada i odlicnih cena, mi smo tim za vas!</h3>
+          <h3>ako vam je potrebna firma koja uspesno vrsi ,postavljanje vodovodnih i kanalizacionih instalacija,
+            obavljanje manjih gradjevinskih radova
+            (zidanje manjih objeka,betoniranje ploca, betoniranje cuprija,itd...),
+            postavljanje behatona ,keramickih plocica, laminata i drugo.
+            ZUKIC-997 je prava adresa za vas!</h3>
+          <h3>Uspesno se bavimo ovim poslom dugi niz godina. iako je nasa firma mlada, mi smo tim iskusnih i strucnih
+            ljudi
+            koji ce obaviti posao za vas po najvisim mogucim standardima i pristupacnim cenama.
+            ako ste trazili jedinstven spoj odlicnog rada i odlicnih cena, mi smo tim za vas!</h3>
 
-        <h3>to su pokazale i nase brojne musterije, koje su posle obavljenog posla uvek zadovoljne!</h3>
+          <h3>to su pokazale i nase brojne musterije, koje su posle obavljenog posla uvek zadovoljne!</h3>
 
-        <h3><b>1 veoma povoljno</b>
-          <b>2 brzo</b>
-          <b>3 efikasno</b>
-          <b>4 uz postovanje svih dogovorenih rokova</b>
-        </h3>
+          <h3><b>1 veoma povoljno</b>
+            <b>2 brzo</b>
+            <b>3 efikasno</b>
+            <b>4 uz postovanje svih dogovorenih rokova</b>
+          </h3>
 
-        <h3>stekli smo reputaciju uspesnog preduzeca i firme koja uvek ostvaruje svoje ciljeve! sa nama nema greski,
-          budite i vi medju mnogim nasim zadovoljnim klijentima!
-          <hr>
-          U sremskoj mitrovici svi su culi za nas, jer smo firma u kojoj je klijent uvek na prvom mestu!
-          ako imate bilo kakva pitanja u vezi sa bilo kojom od nasih delatnosti tu smo da odgovorimo i damo relevantne
-          informacije!
-        </h3>
-      </div>
-    </div>
-    <!--footer-->
-    <div class="card text-center Grid">
-      <div class="card-header bg-dark">
-      </div>
-      <div class="card-body">
-        <!--<p class="card-title"><b>Nesto za kraj</b></p>-->
-        <!--<p class="card-text" style="color:red;">Made by: Miodrag Sokolovic.</p>-->
-        <a href="https://mail.google.com/mail/u/0/#inbox" class="btn btn-dark">goran.zukic@yahoo.com</a>
-      </div>
-      <div class="card-footer text-muted bg-dark">
-        <!-- Majstor za sve i svasta-->
+          <h3>stekli smo reputaciju uspesnog preduzeca i firme koja uvek ostvaruje svoje ciljeve! sa nama nema greski,
+            budite i vi medju mnogim nasim zadovoljnim klijentima!
+            <hr>
+            U sremskoj mitrovici svi su culi za nas, jer smo firma u kojoj je klijent uvek na prvom mestu!
+            ako imate bilo kakva pitanja u vezi sa bilo kojom od nasih delatnosti tu smo da odgovorimo i damo
+            relevantne
+            informacije!
+          </h3>
+        </div>
       </div>
     </div>
   </div>
+  </div>
+  <!--footer-->
+  <div class="card text-center Grid">
+    <div class="card-header bg-dark">
+    </div>
+    <div class="card-body">
+      <!--<p class="card-title"><b>Nesto za kraj</b></p>-->
+      <!--<p class="card-text" style="color:red;">Made by: Miodrag Sokolovic.</p>-->
+      <a href="mailto:https://mail.google.com/mail/u/0/#inbox" class="btn btn-dark">goran.zukic@yahoo.com</a>
+    </div>
+    <div class="card-footer text-muted bg-dark">
+      <!-- Majstor za sve i svasta-->
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
