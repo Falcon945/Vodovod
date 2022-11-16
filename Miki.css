@@ -77,3 +77,22 @@
 .testiranje {
     justify-content: center;
 }
+
+.mypad {
+    margin: 2px;
+}
+
+.texts {
+    justify-items: center;
+    text-align: center;
+}
+
+.txtcolor {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.sirina {
+    width: 500px;
+}
