@@ -96,3 +96,17 @@
 .sirina {
     width: 500px;
 }
+
+.galery {
+    justify-content: center;
+    border: 5px solid black;
+}
+
+@media (max-width:500px) {
+    .galery {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        display: inline-block;
+    }
+}
