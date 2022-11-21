@@ -66,12 +66,18 @@
     .testiranje {
         flex-direction: column-reverse;
     }
+
+    /*.logo {}*/
 }
 
 
 .mix {
     display: flex;
     align-content: space-between;
+}
+
+.mine {
+    margin: 2px;
 }
 
 .testiranje {
@@ -109,4 +115,8 @@
         align-items: center;
         display: inline-block;
     }
+}
+
+.cols {
+    color: white;
 }
