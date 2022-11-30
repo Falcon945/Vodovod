@@ -15,43 +15,46 @@ Layout = "_Layout.html";
 
 <body style="background:whitesmoke">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark h4">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation text-white">
+    <button class="navbar-toggler" type="button" onclick="toggle()" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation text-white">
       <span class="navbar-toggler-icon text-white" style="color:beige"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <div class="container">
-        <ul class="mix">
-          <li class="mine"><a class="navbar-brand text-white text-center" href="./index.html">O NAMA</a></li>
-          <li class="nav-item dropdown mine">
-            <a class="nav-link text-center dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button"
-              aria-haspopup="true" aria-expanded="false">Galerija</a>
-            <div class="bg-dark dropdown-menu mine">
-              <a class="dropdown-item text-white" href="./Gradjevina.html">Gradjevina</a>
-              <a class="dropdown-item text-white" href="./plocice.html">Plocice</a>
-              <a class="dropdown-item text-white" href="./vodovod.html">Vodovod</a>
-              <!--<div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="./galery.html">Galerija</a>-->
-            </div>
-          </li>
-          <li class="mine"><a class="nav-link text-white text-center" href="./Kontakt.html">Kontakt</a></li>
-        </ul>
-        <ul>
-          <li>
-            <h4 class="card-text nav-link form-inline text-center" style="color:white;">Zukic-997</h4>
-          </li>
-          <li>
-            <h4 class="card-text nav-link form-inline text-center" style="color:white;">Zukic-997</h4>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <form class="form-d-flex mix " role="search">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success text-center my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </li>
-        </ul>
+    <div class="container mix">
+      <div class="logo">
+        <h4 class="card-text nav-link form-inline text-center" style="color:white;">Zukic-997</h4>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="container">
+          <ul class="mix">
+            <li class="mine"><a class="navbar-brand text-white text-center" href="./index.html">O NAMA</a></li>
+            <li class="nav-item dropdown mine">
+              <a class="nav-link text-center dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button"
+                aria-haspopup="true" aria-expanded="false">Galerija</a>
+              <div class="bg-dark dropdown-menu mine">
+                <a class="dropdown-item text-white" href="./Gradjevina.html">Gradjevina</a>
+                <a class="dropdown-item text-white" href="./plocice.html">Plocice</a>
+                <a class="dropdown-item text-white" href="./vodovod.html">Vodovod</a>
+                <!--<div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="./galery.html">Galerija</a>-->
+              </div>
+            </li>
+            <li class="mine"><a class="nav-link text-white text-center" href="./Kontakt.html">Kontakt</a></li>
+          </ul>
+          <ul>
+            <li class="mile">
+              <h4 class="card-text nav-link form-inline text-center" style="color:white;">Zukic-997</h4>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <form class="form-d-flex mix " role="search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success text-center my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -216,6 +219,21 @@ Layout = "_Layout.html";
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!--<script>
+    var y = document.getElementById("proba");
+    var x = document.getElementById("logo");
+    y.style.display = "none";
+    function toggle() {
+
+      if (x.style.display == "none") {
+        x.style.display = "block";
+      }
+      else {
+        x.style.display = "none";
+        y.style.display = "block";
+      }
+    }
+  </script>-->
 </body>
 
 </html>

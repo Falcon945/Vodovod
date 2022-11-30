@@ -1,5 +1,6 @@
 .button {
     background-color: #4CAF50;
+
     /* Green */
     border: none;
     color: white;
@@ -58,22 +59,38 @@
     align-items: center;
 }
 
-.p1 {
-    font-family: "Times New Roman", Times, serif;
-}
-
 @media (max-width:500px) {
     .testiranje {
         flex-direction: column-reverse;
     }
 
-    /*.logo {}*/
+    .logo {
+        display: inline-block;
+    }
+
+    .mile {
+        display: none;
+    }
 }
 
+@media (min-width:500px) {
+    .logo {
+        display: none;
+    }
+
+    .mile {
+        display: inline-block;
+    }
+}
 
 .mix {
     display: flex;
     align-content: space-between;
+    position: relative;
+}
+
+.proba {
+    display: "none";
 }
 
 .mine {
