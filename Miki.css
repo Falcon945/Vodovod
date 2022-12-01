@@ -26,7 +26,7 @@
 }
 
 .menu {
-    width: 200px;
+    width: 250px;
     flex: left;
     justify-content: center;
 }
@@ -37,7 +37,7 @@
 }
 
 .main {
-    width: 600px;
+    width: 700px;
     flex: center;
     justify-items: center;
     text-align: center;
@@ -62,6 +62,7 @@
 @media (max-width:500px) {
     .testiranje {
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
     .logo {
@@ -70,6 +71,10 @@
 
     .mile {
         display: none;
+    }
+
+    .menu {
+        width: 500px;
     }
 }
 
@@ -114,10 +119,12 @@
     color: white;
     background-color: black;
     text-align: center;
+    justify-content: center;
 }
 
 .sirina {
     width: 500px;
+    justify-items: center;
 }
 
 .galery {
@@ -136,4 +143,8 @@
 
 .cols {
     color: white;
+}
+
+.positions {
+    justify-content: center;
 }
