@@ -14,50 +14,52 @@ Layout = "_Layout.html";
 </head>
 
 <body style="background:whitesmoke">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark h4">
-    <button class="navbar-toggler" type="button" onclick="toggle()" data-toggle="collapse"
-      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-      aria-label="Toggle navigation text-white">
-      <span class="navbar-toggler-icon text-white" style="color:beige"></span>
-    </button>
-    <div class="container mix">
+  <div class="directsinline">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark h4">
+      <button class="navbar-toggler " type="button" onclick="toggle()" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation text-white">
+        <span class="navbar-toggler-icon text-white" style="color:beige"></span>
+      </button>
       <div class="logo">
         <h4 class="card-text nav-link form-inline text-center" style="color:white;">Zukic-997</h4>
       </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="container">
-          <ul class="mix">
-            <li class="mine"><a class="navbar-brand text-white text-center" href="./index.html">O NAMA</a></li>
-            <li class="nav-item dropdown mine">
-              <a class="nav-link text-center dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button"
-                aria-haspopup="true" aria-expanded="false">Galerija</a>
-              <div class="bg-dark dropdown-menu mine">
-                <a class="dropdown-item text-white" href="./Gradjevina.html">Gradjevina</a>
-                <a class="dropdown-item text-white" href="./plocice.html">Plocice</a>
-                <a class="dropdown-item text-white" href="./vodovod.html">Vodovod</a>
-                <!--<div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="./galery.html">Galerija</a>-->
-              </div>
-            </li>
-            <li class="mine"><a class="nav-link text-white text-center" href="./index.html?#contact">Kontakt</a></li>
-          </ul>
-          <ul>
-            <li class="mile">
-              <h4 class="card-text nav-link form-inline text-center" style="color:white;">Zukic-997</h4>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <form class="form-d-flex mix " role="search">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success text-center my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </li>
-          </ul>
+      <div class="container mix directs">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="container">
+            <ul class="mix">
+              <li class="mine"><a class="navbar-brand text-white text-center" href="./index.html">O NAMA</a></li>
+              <li class="nav-item dropdown mine">
+                <a class="nav-link text-center dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button"
+                  aria-haspopup="true" aria-expanded="false">Galerija</a>
+                <div class="bg-dark dropdown-menu mine">
+                  <a class="dropdown-item text-white" href="./Gradjevina.html">Gradjevina</a>
+                  <a class="dropdown-item text-white" href="./plocice.html">Plocice</a>
+                  <a class="dropdown-item text-white" href="./vodovod.html">Vodovod</a>
+                  <!--<div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="./galery.html">Galerija</a>-->
+                </div>
+              </li>
+              <li class="mine"><a class="nav-link text-white text-center" href="./index.html?#contact">Kontakt</a></li>
+            </ul>
+            <ul>
+              <li class="mile">
+                <h4 class="card-text nav-link form-inline text-center" style="color:white;">Zukic-997</h4>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <form class="form-d-flex mix " role="search">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success text-center my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
   <!--end of navbar-->
   <!--some text or marketing place here-->
   <div class="row testiranje" id="contact">
@@ -79,7 +81,7 @@ Layout = "_Layout.html";
       </h3>
     </div>
     <!--carousel kao 3 element-->
-    <div class="last Grid" style="background-color: whitesmoke;">
+    <div class="last Grid carsel" style="background-color: whitesmoke;">
 
       <div class="container-fluid" style="display: block; background-color: whitesmoke;">
         <div id="carouselMaterialCaptions" class="carousel slide carousel-fade" data-mdb-ride="carousel">
@@ -89,7 +91,7 @@ Layout = "_Layout.html";
             <li data-target="#carouselMaterialCaptions" data-slide-to="2"></li>
             <li data-target="#carouselMaterialCaptions" data-slide-to="3"></li>
           </ol>
-          <div class="carousel-inner rounded-5 shadow-4-strong" width="100%">
+          <div class="carousel-inner rounded-5 shadow-4-strong" width="100%" height="100%">
             <div class="carousel-item active">
               <a href="./Gradjevina.html"><img src="Images/gradjevina.png" class="d-block w-100" style="display: block;"
                   alt="Gradjevina"></a>
@@ -190,7 +192,7 @@ Layout = "_Layout.html";
                 </div>
               </div>
             </div>
-            <a href="#" data-toggle="modal" data-target="#more"><button class="txtcolor">VISE</button></a>
+            <a href="#" data-toggle="modal" data-target="#more"><button class="txtcolor btn btn-dark">VISE</button></a>
           </div>
         </div>
       </div>

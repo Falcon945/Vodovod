@@ -78,6 +78,18 @@
     }
 }
 
+.directs {
+    flex-direction: right;
+}
+
+.directsleft {
+    flex-direction: left;
+}
+
+.directsinline {
+    flex-direction: row;
+}
+
 @media (min-width:500px) {
     .logo {
         display: none;
@@ -147,4 +159,16 @@
 
 .positions {
     justify-content: center;
+}
+
+.paddingsi {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.carsel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
